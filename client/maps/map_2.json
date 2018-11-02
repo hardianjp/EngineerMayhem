@@ -13,8 +13,8 @@
                 "max_players": 4,
                 "collisionTiles": [1],
                 "spawns": [
-                        { "col": 6,  "row": 5 },
-                        { "col": 6,  "row": 20 },
+                        { "col": 8,  "row": 5 },
+                        { "col": 8,  "row": 20 },
                         { "col": 20,  "row": 5 },
                         { "col": 20,  "row": 20 }
                                                 ]
