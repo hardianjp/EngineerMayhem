@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <title>Engineer Mayhem</title>
+  <link rel='stylesheet' href='css/base.css'/>
+  <style>
+  @font-face {
+            font-family: 'pixel';
+            src: url('/fonts/advocut-webfont.ttf');
+  }
+
+</style>
+
+  <script src='lib/phaser.min.js'></script>
+  <script src='lib/phase-slide.js'></script>
+  <script src='/socket.io/socket.io.js'></script>
+
+  <script type='module' type='text/javascript' src='js/app.js'></script>
+  <script type='module' type='text/javascript' src='js/states/boot.js'></script>
+  <script type='module' type='text/javascript' src='js/states/menu.js'></script>
+  <script type='module' type='text/javascript' src='js/states/preload.js'></script>
+  <script type='module' type='text/javascript' src='js/states/select_map.js'></script>
+  <script type='module' type='text/javascript' src='js/states/pending_game.js'></script>
+  <script type='module' type='text/javascript' src='js/states/play.js'></script>
+  <script type='module' type='text/javascript' src='js/utils/constants.js'></script>
+  <script type='module' type='text/javascript' src='js/helpers/elements.js'></script>
+  <script>
+    window.clientSocket = io.connect();
+  </script>
+
+</head>
+<body>
+  <div id='game-wrapper'>
+    <div id='game-container'>
+
+    </div>
+  </div>
+</body>
+</html>

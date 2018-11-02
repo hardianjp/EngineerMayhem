@@ -1,0 +1,27 @@
+{
+  "name": "EngineerMayhem",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "server": "webpack && node --inspect server/app.js",
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "bufferutil": "4.0.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.1.1",
+    "utf-8-validate": "5.0.1",
+    "uuid": "^3.3.2",
+    "ws": "6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.31",
+    "@babel/preset-env": "^7.0.0-beta.31",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.8.1"
+  }
+}
