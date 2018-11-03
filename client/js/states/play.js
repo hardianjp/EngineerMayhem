@@ -54,6 +54,7 @@ class Play extends Phaser.State {
     this.map.addTilesetImage(TILESET);
 
     this.blockLayer = this.map.createLayer(LAYER);
+    this.blockLayer.resizeWorld();
 
     this.map.setCollision(this.blockLayer.layer.properties.collisionTiles)
 
